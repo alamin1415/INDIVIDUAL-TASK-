@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+     <%--Bootstrap css--%>
+ <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+ <%--datatables css--%>
+ <link href="datatables/css/dataTables.dataTables.min.css" rel="stylesheet" />
+ <%--fontawesome css--%>
+ <link href="Fontawesome/css/all.css" rel="stylesheet" />
+
+ <%--our custom css--%>
+ <link href="css/CustomStyleSheet.css" rel="stylesheet" />
+
+ <%--jquery--%>
+ <script src="Bootstrap/js/jquery.slim.min.js"></script>
+
+ <%--popper js--%>
+ <script src="Bootstrap/js/popper.min.js"></script>
+
+ <%--bootstrap js--%>
+ <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+         
+
+
+        <div style="background-position: center; height: 251px; background-image: url('/Picture/front.png'); width: 1793px;">
+
+
+            
+            
+
+
+           
+        </div>
+
+
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Main Content Placeholder -->
+
+         <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+        <footer style="background-position: left top; height: 179px; background-color: #99CCFF; font-family: 'Bodoni MT Black'; font-size: -16px; font-style: oblique; background-image: url('/Picture/FOOTER.png'); width: 1605px;">
+          
+
+
+
+
+        </footer>
+
+    
+</body>
+</html>
